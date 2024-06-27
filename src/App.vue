@@ -218,7 +218,13 @@ function hideAboutPopup() {
   </dialog>
   <main class="pb-16">
     <div class="w-min mx-auto">
-      <input type="file" name="fileUpload" id="fileUpload" @change="handleUpload($event)" />
+      <input
+        type="file"
+        name="fileUpload"
+        id="fileUpload"
+        @change="handleUpload($event)"
+        accept="image/*"
+      />
     </div>
 
     <div class="flex p-8 justify-center space-around">
