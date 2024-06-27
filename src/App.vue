@@ -236,14 +236,12 @@ function hideAboutPopup() {
     <div class="flex w-screen justify-center">
       <Cropper
         :src="uploadImg"
-        @change="change"
         :stencilProps="{ aspectRatio: pieces }"
         ref="cropper"
         class="w-1/2"
       ></Cropper>
       <Cropper
         :src="uploadImg"
-        @change="change"
         :stencilProps="{ aspectRatio: 1 }"
         ref="cropper2"
         tabindex="-1"
@@ -383,5 +381,10 @@ ol li {
 dialog > * {
   @apply w-11/12;
   @apply mx-auto;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
 }
 </style>

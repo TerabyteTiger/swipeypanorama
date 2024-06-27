@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.terabytetiger.swipeypanorama.twa",
+        "sha256_cert_fingerprints": ["F6:F8:BA:7C:98:5B:6F:C3:B0:72:C1:17:9C:22:1C:D8:8B:96:68:CF:2D:5E:D4:B0:C8:17:64:39:AA:7F:68:E9"]
+      }
+    }]
