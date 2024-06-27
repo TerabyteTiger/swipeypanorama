@@ -25,22 +25,28 @@
   ],
   "screenshots": [
     {
-      "src": "/screenshots/page1-1.png",
+      "src": "/screenshots/page1-1.jpg",
       "sizes": "1080x2199",
-      "type": "image/png",
+      "type": "image/jpg",
       "description": "A screenshot of the home page in use"
     },
     {
-      "src": "/screenshots/page1-2.png",
+      "src": "/screenshots/page1-2.jpg",
       "sizes": "1080x2182",
-      "type": "image/png",
+      "type": "image/jpg",
       "description": "A screenshot of the home page showing more of the output fields"
     },
     {
-      "src": "/screenshots/page1-3.png",
+      "src": "/screenshots/page1-3.jpg",
       "sizes": "1080x2203",
-      "type": "image/png",
+      "type": "image/jpg",
       "description": "A screenshot of the home page with additional examples of the output fields"
+    },
+    {
+      "src": "/screenshots/desktop-1-1.png",
+      "sizes": "1890x901",
+      "type": "image/png",
+      "description": "A screenshot of the home page on desktop"
     }
   ],
   "prefer_related_applications": false,
