@@ -205,6 +205,12 @@ function hideAboutPopup() {
           <!-- While not necessary, if you'd like to provide financial support for Swipey Panoramas you
           can <a href="buymeacoffee.com/TerabyteTiger">buy me a coffee</a> -->
         </p>
+        <h2>Open source</h2>
+        <p>
+          Report an issue:
+          <a href="https://github.com/TerabyteTiger/swipeypanorama">GitHub</a> | App packaging via
+          <a href="https://www.pwabuilder.com/">PWA Builder</a>
+        </p>
       </div>
 
       <button class="sticky bottom-1 w-1/3" @click="hideAboutPopup()" autofocus>Close</button>
