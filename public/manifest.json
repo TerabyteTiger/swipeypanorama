@@ -11,13 +11,13 @@
   "orientation": "any",
   "icons": [
     {
-      "src": "public/android/mipmap-xxxhdpi/swipeypanoramaicon.png",
+      "src": "/android/mipmap-xxxhdpi/swipeypanoramaicon.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "public/playstore.png",
+      "src": "/playstore.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
@@ -25,19 +25,19 @@
   ],
   "screenshots": [
     {
-      "src": "public/screenshots/page1-1.png",
+      "src": "/screenshots/page1-1.png",
       "sizes": "1080x2199",
       "type": "image/png",
       "description": "A screenshot of the home page in use"
     },
     {
-      "src": "public/screenshots/page1-2.png",
+      "src": "/screenshots/page1-2.png",
       "sizes": "1080x2182",
       "type": "image/png",
       "description": "A screenshot of the home page showing more of the output fields"
     },
     {
-      "src": "public/screenshots/page1-3.png",
+      "src": "/screenshots/page1-3.png",
       "sizes": "1080x2203",
       "type": "image/png",
       "description": "A screenshot of the home page with additional examples of the output fields"
