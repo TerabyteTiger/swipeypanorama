@@ -171,7 +171,7 @@ function hideAboutPopup() {
     class="w-11/12 h-11/12 sm:w-4/5 sm:h-4/5 rounded-xl p-4 backdrop:backdrop-blur-md max-w-prose"
   >
     <div class="flex flex-col justify-between items-center h-full">
-      <div class="">
+      <div class="mb-12">
         <h2>Hello There 👋🏻</h2>
         <ol>
           <li>
@@ -202,8 +202,9 @@ function hideAboutPopup() {
             >tagged me in your posts you make with it</a
           >
           or you can check out <a href="https://terabytetiger.com">my blog</a>! <br /><br />
-          <!-- While not necessary, if you'd like to provide financial support for Swipey Panoramas you
-          can <a href="buymeacoffee.com/TerabyteTiger">buy me a coffee</a> -->
+          While not necessary, if you'd like to donate to support Swipey Panoramas you can
+          <a href="buymeacoffee.com/TerabyteTiger">buy me a coffee</a>
+          <br /><br />
         </p>
         <h2>Open source</h2>
         <p>
