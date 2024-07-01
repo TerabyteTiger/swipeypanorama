@@ -203,7 +203,7 @@ function hideAboutPopup() {
           >
           or you can check out <a href="https://terabytetiger.com">my blog</a>! <br /><br />
           While not necessary, if you'd like to donate to support Swipey Panoramas you can
-          <a href="buymeacoffee.com/TerabyteTiger">buy me a coffee</a>
+          <a href="https://buymeacoffee.com/TerabyteTiger">buy me a coffee</a>
           <br /><br />
         </p>
         <h2>Open source</h2>
