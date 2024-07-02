@@ -43,6 +43,7 @@ function handleUpload(event) {
 }
 
 async function generateImages() {
+  document.getElementById('loaderDialog').showModal()
   img1.value = null
   img2.value = null
   img3.value = null
@@ -150,6 +151,7 @@ async function generateImages() {
       }
     }
   }
+  document.getElementById('loaderDialog').close()
 }
 
 function showAboutPopup() {
@@ -216,6 +218,9 @@ function hideAboutPopup() {
 
       <button class="sticky bottom-1 w-1/3" @click="hideAboutPopup()" autofocus>Close</button>
     </div>
+  </dialog>
+  <dialog id="loaderDialog" class="backdrop:bg-black backdrop:opacity-50">
+    <div class="loader"></div>
   </dialog>
   <main class="pb-16">
     <div class="w-min mx-auto">
@@ -387,5 +392,19 @@ dialog > * {
 .stop-scrolling {
   height: 100%;
   overflow: hidden;
+}
+
+.loader {
+  width: 320px;
+  height: 50px;
+  background: linear-gradient(#32424f 0 0) left -40px top 0/40px 100% no-repeat #eee;
+  -webkit-mask: conic-gradient(from 90deg at 5px 5px, #0000 25%, #000 0) 0 0 /
+    calc((100% - 5px) / 5) calc(100% - 5px);
+  animation: l10 1s infinite linear;
+}
+@keyframes l10 {
+  100% {
+    background-position: right -40px top 0;
+  }
 }
 </style>
