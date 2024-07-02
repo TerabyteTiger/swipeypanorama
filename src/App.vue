@@ -239,14 +239,14 @@ function hideAboutPopup() {
         :src="uploadImg"
         :stencilProps="{ aspectRatio: pieces }"
         ref="cropper"
-        class="w-1/2"
+        class="w-10/12 md:w-3/4 xl:w-1/2"
       ></Cropper>
       <Cropper
         :src="uploadImg"
         :stencilProps="{ aspectRatio: 1 }"
         ref="cropper2"
         tabindex="-1"
-        class="opacity-0 !absolute left-0 inline w-1/2"
+        class="opacity-0 !absolute left-0 inline w-10/12 md:w-3/4 xl:w-1/2"
         style="z-index: -1"
       ></Cropper>
     </div>
